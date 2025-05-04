@@ -34,3 +34,14 @@ U mężczyzn:
 <li>Wartości referencyjne (dla zdrowia):
 <li>WHR poniżej 0,9 dla mężczyzn i poniżej 0,85 dla kobiet. 
 <li>Idealny WHR u kobiet to 0,7, a u mężczyzn to 1.
+
+## UK Railway sales report
+<li> Szybki dashboard pokazujący sprzedaż biletów UK Railway wg total, typ biletu, rodzaj biletu, w godzinach szczytu, wg liczby opóźnień
+<li> Techstack: Excel
+<li> Raport wskazuje przewagę sprzedaży bileów typu Advance w porównaniu do Off-Peak i Anytime. Tylko 20% klientów wybiera bielety First Class. Natomiast ponad 67% przychodu z bilwów przypada w godzinach szczytu czyli 4.00-9.00 i 16.00-19.00. Tylko ponad 4000 połączeń miało opóźnienia lub było anulowanych spośród ponad 31 000 połączeń. Najczęściej sprzedawane trasy to TOP3: Manchester Piccadilly - Liverpool Lime Street
+London Euston - Birmingham New Street
+London Kings Cross - York
+![UK Railway sales report dashboard screen](https://github.com/user-attachments/assets/15b96c35-067c-4dd6-8127-b42f3e9c4ebd)
+
+
+
