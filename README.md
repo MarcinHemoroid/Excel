@@ -1,6 +1,7 @@
 # Excel
 ## Soontu Health Tracker 2022
 <li> Szybki dashboard analizujący postępy aktywności fizycznej na podstawie danych: aktywność, data, bmi, waga, whr
+<li> Typ danych źródłowych: csv 
 <li> Techstack: Excel
 <li> przykłady funkcji czyszczenia danych: 
 <br>Złączamy dane w jedną kolumnę =TEXTJOIN(";";TRUE;tb_source4[@[Date of Purchase]:[Refund Request]])
