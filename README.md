@@ -2,6 +2,11 @@
 ## Soontu Health Tracker 2022
 <li> Szybki dashboard analizujący postępy aktywności fizycznej na podstawie danych: aktywność, data, bmi, waga, whr
 <li> Techstack: Excel
+<li> przykłady funkcji czyszczenia danych: 
+Złączamy dane w jedną kolumnę =TEXTJOIN(";";TRUE;tb_source4[@[Date of Purchase]:[Refund Request]])
+Do zliczenia dubli używamy: =ROWS(UNIQUE(tb_source4[[#All];[ID_unique]]))
+Do zliczenia wszystkich wierszy używamy: =COUNTA(tb_source4[ID_unique])
+Do wylistowania dubli używamy: =FILTER(tb_source3[ID_unique];COUNTIF(tb_source3[ID_unique];tb_source3[ID_unique])>1)
 <li> Raport pokazuje aktwność fizyczną w pozwiązaniu z efektami wpłwu na zdrowie w czasie 12 miesięcy. Widzimy zwiększoną aktwność ćwiczącej w miesiącacach: kwiecień, sierpień oraz październik. Natomiast rozkład watości maksymalnych aktywności rozkłada się równo we wszystkich miesiącach. Przy równym rozkładzie widzimy spadek wagi, bmi oraz whr z poziomów zagrażających zdrowiu do wartości oznaczonych jako bezpieczne.
   
 ![Soontu Health Tracker 2022 dashboard screen](https://github.com/user-attachments/assets/11f5c01a-0d33-4f37-8c50-7e1a3dba06e5)
