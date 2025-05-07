@@ -51,5 +51,23 @@ U mężczyzn:
   
 ![UK Railway sales report dashboard screen](https://github.com/user-attachments/assets/15b96c35-067c-4dd6-8127-b42f3e9c4ebd)
 
+## Lego sets report 1970 - 2022
+
+<li> Szybki dashboard analizujący liczbę wprowadzonych zestawów klocków Lego na rynek, trendy wg lat, TOP zestawów, liczbę figurek w zestawach. 
+<li> Typ danych źródłowych: csv
+<li> Techstack: Excel
+<li> Przykłady funkcji czyszczenia danych:
+<br> 1. Złączamy dane w jedną kolumnę =TEXTJOIN()
+<br> 2. Do zliczenia dubli używamy: =ROWS(UNIQUE())
+<br> 3. Do zliczenia wszystkich wierszy używamy: =COUNTA()
+<br> 4. Do wylistowania dubli używamy: =FILTER(;COUNTIF()>1)
+<br> 5. Czyszczenie danch z użyciem funkcji =if()
+<br> 6. Przygtowanie kalendarza Dekad =ROUNDDOWN()
+Raport pokazuje pelną liczbę wyemitowanych zestawów od 1970 roku do 2022 roku, to liczba 18457.
+<li> Liczba zestawów rok do roku rosla od 41 zestawów do liczby 967 w 2022 roku.
+Analizując cenę zestawu i liczbę klocków w zestawie widzimy, że cena rośnie proporcjonalnie do liczby klocków.
+Najpopularniejszym zestawem od 1970 jest zestaw Gear, który wygrywa przez ostatnie ponad 20 lat, a wyprzedza zestaw z grupy Town liderujący w poprzednich 20 latach.
+
+![Lego sets report dashboard screen](https://github.com/user-attachments/assets/3617092a-8065-4ae2-b4f0-0dddb25dd4e9)
 
 
