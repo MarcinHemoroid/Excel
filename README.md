@@ -71,3 +71,28 @@ Najpopularniejszym zestawem od 1970 jest zestaw Gear, który wygrywa przez ostat
 ![Lego sets report dashboard screen](https://github.com/user-attachments/assets/3617092a-8065-4ae2-b4f0-0dddb25dd4e9)
 
 
+
+## Reklamy TV podczas Super Bowl dla 10 popularnych marek w latach 2000-2021 ##
+
+<li> Szybki dashboard analizujący skuteczność reklam najpopularniejszych marek emitowanych podczas SuperBowl. Analizowany okres 2000-2021.
+<li> Typ danych źródłowych: csv
+<li> Techstack: Excel
+<li> Przykłady funkcji czyszczenia danych:
+<br> 1. Złączamy dane w jedną kolumnę =TEXTJOIN()
+<br> 2. Do zliczenia dubli używamy: =ROWS(UNIQUE())
+<br> 3. Do zliczenia wszystkich wierszy używamy: =COUNTA()
+<br> 4. Do wylistowania dubli używamy: =FILTER(;COUNTIF()>1)
+<br> 5. Czyszczenie danych z użyciem funkcji =if()
+
+<li> Raport wskazuje na 3 najbardziej aktywne firmy rynku reklam podczas SuperBowl. Ponad 60 wykupionych reklam przez BudLight stawia firmę na pozycji lidera, a wyprzedza Budweiser oraz Doritos.
+Trzy główne cechy jakie dominowały w emitowanych reklamach:
+<br> 1.   "Zabawna reklama" 69%,
+<br> 2.   "Szybka prezentacja produktu" 67%,
+<br> 3.   motyw "Zwierząt" 36%.
+<br> Trochę inaczej wygląda zaangażowanie w reklamę na YouTube. Najwięcej wyświetleń w tym okresie miały Doritos, CocaCola i NFL, a dominujące cechy ("Zabawna reklama" i "Szybka prezentacja produktu") reklamy u lidera oraz dodatkowo wysoko uplasował się motyw "Zwierząt" u CocaCola.
+Ogólne cechy reklam prezentaowane na przełomie dekad pokrywają się z cechami, które dają 2 firmom wysoką liczbę odsłon w YouTube.
+
+
+
+
+<img width="522" alt="superbowl_commercials_raport_dashboard" src="https://github.com/user-attachments/assets/5c1f6e59-035e-45eb-ad10-a1e481f6cd78" />
